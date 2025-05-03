@@ -1,0 +1,20 @@
+export const mediaToCity = {
+  'midnight in paris': 'París',
+  'la casa de papel': 'Barcelona',
+  'roman holiday': 'Roma',
+  'call me by your name': 'Roma',
+  'amélie': 'París',
+  'the talented mr. ripley': 'Roma',
+  'before sunrise': 'Budapest',
+  'vicky cristina barcelona': 'Barcelona',
+  'the bridge': 'Copenhague',
+  'dark': 'Berlín',
+  'the queen\'s gambit': 'Berlín',
+  'lupin': 'París',
+  'game of thrones': 'Dubrovnik',
+  'juego de tronos': 'Dubrovnik',
+  'game of thrones - dorne': 'Sevilla',
+  'game of thrones - braavos': 'Girona',
+  'game of thrones - wall': 'Reykjavík',
+  'game of thrones - winterfell': 'Belfast'
+};
