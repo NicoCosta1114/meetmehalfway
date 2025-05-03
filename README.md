@@ -4,7 +4,7 @@
 
 ## 🚀 Try it
 
-> (Optional) If you deploy to Vercel or Netlify, paste the link here.
+https://meetmehalfway-seven.vercel.app/
 
 ## 📦 Built With
 
