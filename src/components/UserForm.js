@@ -27,7 +27,7 @@ const UserForm = ({ onSubmit }) => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    if (!user.name || !user.city || !user.budget) return alert("Completa todos los campos");
+    if (!user.name || !user.city || !user.budget) return alert("Please complete all fields");
     onSubmit(user);
     setUser({
       name: '',
@@ -45,7 +45,7 @@ const UserForm = ({ onSubmit }) => {
     <form onSubmit={handleSubmit} style={{ marginBottom: '20px' }}>
       <input
         name="name"
-        placeholder="Tu nombre"
+        placeholder="Your name"
         value={user.name}
         onChange={handleChange}
         style={{ marginRight: '10px' }}
@@ -93,22 +93,22 @@ const UserForm = ({ onSubmit }) => {
           checked={user.nightlife}
           onChange={handleChange}
         />
-        Me gusta la vida nocturna
+        I enjoy nightlife
       </label>
 
       <br />
 
       <label>
-        Entorno preferido:
+        Preferred environment:
         <select
           name="environment"
           value={user.environment}
           onChange={handleChange}
           style={{ marginLeft: '10px' }}
         >
-          <option value="">-- Elige --</option>
-          <option value="playa">Playa</option>
-          <option value="montaña">Montaña</option>
+          <option value="">-- Select --</option>
+          <option value="Beach">Beach</option>
+          <option value="Mountain">Mountain</option>
         </select>
       </label>
 
@@ -121,14 +121,14 @@ const UserForm = ({ onSubmit }) => {
           checked={user.explorer}
           onChange={handleChange}
         />
-        Me gustaría descubrir nuevas experiencias
+        I want to discover new experiences
       </label>
 
       <br />
 
       <input
         name="favorites"
-        placeholder="Películas o series favoritas"
+        placeholder="Favorite movies or series"
         value={user.favorites}
         onChange={handleChange}
         style={{ marginTop: '10px', width: '100%' }}
